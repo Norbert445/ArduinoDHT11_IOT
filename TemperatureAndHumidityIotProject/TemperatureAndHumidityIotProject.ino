@@ -8,8 +8,8 @@
 #define DHTPIN 5
 #define DHTTYPE DHT11
 
-const char* ssid = "HUAWEI-HNXR-2G";
-const char* password = "SdTNPdbN";
+const char* ssid = "wifi_ssid";
+const char* password = "wifi_password";
 
 WiFiClient wifiClient;
 HTTPClient httpClient;
